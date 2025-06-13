@@ -18,10 +18,9 @@ This is the frontend application for the Employee Management System, built to ma
 
 - **React** ⚛️: The entire frontend is built with React, leveraging hooks for state management.
 - **Redux** 🗂️: Used for managing global state (authentication, employee data).
-- **Axios** 📡: For making HTTP requests to the backend API.
 - **React Router** 🛣️: To handle navigation and routing between different pages.
-- **Bootstrap** 💄: Used for styling and responsive layout.
-- **Netlify** 🌐: Deployed on Netlify for a fast and reliable hosting experience.
+
+
 
 
 ## 🔧 API Endpoints
@@ -30,15 +29,15 @@ This project interacts with a backend server deployed on Render. Below are the M
 
 - **Authentication**:
   - POST /api/auth/login: To log in and receive a JWT token.
+    
 - **Employee Management**:
   - GET /api/user/getemployee: Fetch employee data.
   - GET /api/user/getprofilepicture: Fetch the profile picture of the logged-in user.
+    
 - **Attendance Management**:
   - POST /api/user/attendance/attendancerecord: Get attendance records.
   - POST /api/user/attendance/toggleswipestatus: marks attendance for the user (toggles active state of the user in the site)
+    
 - **Leave Management**:
   - GET /api/user/leave: Fetch leave records for the logged-in user.
   - POST /api/user/applyleave: Apply leave for the user with provided details
-
-
-You can visit the deployed website [here](https://employee-management-dashboard-dev-it.netlify.app)
